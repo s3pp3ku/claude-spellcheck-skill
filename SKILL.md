@@ -20,6 +20,10 @@ Fix spelling, typos, and obvious grammar and punctuation mistakes while keeping 
 3. Leave alone: code, commands, URLs, file paths, email addresses, names, and intentional casual spelling (e.g. "gonna", "lol").
 4. If a word is ambiguous, pick the most likely meaning from context and flag it.
 
+## Personal dictionary
+
+If `~/.claude/my-words.md` exists, read it first. Never change a word under "Keep as written", and always fix the entries under "My usual typos". When you spot a new personal word or a typo the user repeats, add it to that file.
+
 ## Output
 
 1. The corrected text in a fenced code block so it's easy to copy.

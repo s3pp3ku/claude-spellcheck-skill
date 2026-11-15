@@ -15,3 +15,7 @@ git clone https://github.com/s3pp3ku/claude-spellcheck-skill ~/.claude/skills/sp
 - Or ask "fix my typos" or "proofread this" and Claude runs it on its own
 
 You get the corrected text in a copyable block, plus a short list of the changes.
+
+## Personal dictionary (optional)
+
+Create `~/.claude/my-words.md` with two sections: **Keep as written** (your names, projects and slang that should never be "corrected") and **My usual typos** (`typo` → `correct`). The skill reads it first and adds new words as it learns them.
